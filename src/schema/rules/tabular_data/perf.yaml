@@ -3,6 +3,8 @@ ASLContext:
   selectors:
     - datatype == "perf"
     - suffix == "aslcontext"
+  initial_columns:
+    - volume_type
   columns:
     volume_type: required
   additional_columns: not_allowed
